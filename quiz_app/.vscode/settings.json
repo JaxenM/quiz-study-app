@@ -1,0 +1,10 @@
+{
+    "cmake.configureOnOpen": false,
+    "cSpell.words": [
+        "Cupertino",
+        "firestore",
+        "sqlbrite",
+        "Tarjetas"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

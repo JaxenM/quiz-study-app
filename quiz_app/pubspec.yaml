@@ -1,0 +1,50 @@
+name: quiz_app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 0.0.5+1
+
+environment:
+  sdk: ">=3.2.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter  # Required for localization
+  cupertino_icons: ^1.0.2
+  uuid: ^4.3.3
+  sqflite: ^2.3.2
+  path: ^1.8.3
+  sqlbrite: ^2.6.0
+  firebase_core: ^2.25.4
+  cloud_firestore: ^4.15.5
+  firebase_auth: ^4.17.6
+  flutter_launcher_icons: ^0.13.1  # For generating app icons
+  flutter_speed_dial: ^7.0.0
+  animated_flip_counter: ^0.3.3
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/not-quizlet.png"  # Custom icon path
+
+flutter:
+  generate: true  # Enable localization code generation
+  uses-material-design: true
+
+  assets:
+    - assets/not-quizlet.png  # Custom icon asset
+
+  fonts:
+    - family: MyCustomFont
+      fonts:
+        - asset: fonts/Roboto/Roboto-Regular.ttf
+        - asset: fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
